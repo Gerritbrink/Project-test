@@ -2,17 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class items : MonoBehaviour
+public class Items : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string itemName;
+    public string description;
+    public Sprite icon;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
