@@ -5,5 +5,7 @@ using UnityEngine;
 public class Convesation : ScriptableObject
 {
     public string[] convoText;
+    //initializers gebruiken om de Cm leeg en georganiseerd houden
+    // laat
 }
 
